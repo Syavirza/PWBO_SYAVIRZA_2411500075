@@ -1,6 +1,6 @@
 <?php
 class Matakuliah extends Controller {
-    public function index ()
+    public function index()
     {
         $data['judul'] = 'Daftar Matakuliah';
         $data['matkul'] = $this->model('Matakuliah_model')->getMatakuliah();
@@ -18,5 +18,4 @@ class Matakuliah extends Controller {
         $this->view('templates/footer');
     }
 }
-
 ?>

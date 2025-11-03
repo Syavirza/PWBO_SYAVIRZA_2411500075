@@ -23,7 +23,9 @@
                     <?php foreach($data['mhs'] as $mhs) : ?>
                     <tr>
                         <td><?= $no++; ?></td>
-                        <td><?= $mhs['nama']; ?></td>                    
+                        <td><?= $mhs['nama']; ?></td>
+                        <td></td>
+                        <td></td>
                         <td>
                           <a href="<?php echo BASEURL; ?>/mahasiswa/hapus/<?php echo $mhs['id']; ?>" 
                            class="badge text-bg-danger float-end ms-2" 
@@ -77,9 +79,8 @@
             <div class="mb-3">
                 <label for="jurusan" class="form-label">Jurusan</label>
                 <select class="form-control" id="jurusan" name="jurusan" required>
-                <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
                     <option value="Sistem Informasi">Sistem Informasi</option>
-                    <option value="Bisnis Digital">Bisnis Digital</option>
                     <option value="Management Informatika">Management Informatika</option>
                 </select>
             </div>

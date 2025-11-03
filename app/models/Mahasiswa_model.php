@@ -1,7 +1,7 @@
 <?php
 class Mahasiswa_model {
     private $table ='mahasiswa'; //database handler
-    private $db; //statement yayng digunakan untuk menyimpan query
+    private $db; //statement yang digunakan untuk menyimpan query
 
     public function __construct()
     {

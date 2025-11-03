@@ -1,12 +1,12 @@
 <div class="container mt-5">
     <div class="card" style="width: 22rem;">
         <div class="card-header bg-primary text-white">
-            <h5 class="card-title mb-0">Detail Mahasiswa</h5>
+            <h5 class="card-title mb-0">Detail Matakuliah</h5>
         </div>
         <div class="card-body">
             <table class="table table-borderless">
                 <tr>
-                    <th>Nama </th>
+                    <th>Nama Mahasiswa</th>
                     <td>:</td>
                     <td><?= $data['mhs']['nama']; ?></td>
                 </tr>
